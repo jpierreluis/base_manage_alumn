@@ -21,6 +21,7 @@ seleccionar Run as y seleccionar la opcion para levantar spring
 ![Image text](https://github.com/jpierreluis/base_manage_alumn/blob/main/ImgExample/levantar_el_proyecto_java.png)
 
 # angular:
+**importante: no es nesesario utilizar el proyecto de angular, si gustas podras utilizar algun frontEnd de tu preferencia o inclusive una pagina html con sus scripts y hojas de estilo si asi lo prefieres**
 el proyecto angular se encuentra dentro de este mismo repositorio esta ubicado en /grade-management-ws/src/main/resources/management-alumn
 dentro del aplicativo de angular en la ruta: src\app\utils\config.ts
 se encuentra una variable en la cual puedes configurar el path de hacia donde quieres apuntar a los servicios APIS
