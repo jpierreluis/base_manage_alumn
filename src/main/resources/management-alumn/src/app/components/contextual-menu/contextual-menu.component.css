@@ -1,0 +1,35 @@
+.list-group.dropdown-kt{
+    position: fixed;
+}
+
+.slide-in-left-right-animation {
+    animation: animation-down .5s normal;
+}
+
+.slide-in-left-right-animation {
+    animation: animation-down .5s normal;
+}
+
+.slide-in-left-right-animation>a {
+    animation: animation-desaper .5s normal;
+}
+
+@keyframes animation-disaper {
+    0% {
+        display: none;
+    }
+    70% {
+        display: block;
+    }
+    100% {
+        display: block;
+    }
+}
+@keyframes animation-down {
+    0% {
+        height: 0%;
+    }
+    100% {
+        height: auto;
+    }
+}

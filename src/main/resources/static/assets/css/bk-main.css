@@ -1,0 +1,47 @@
+.table-dark-blue {
+    background: #052c65 !important;
+    color: #fff !important;
+}
+
+.table-secondary-text-white {
+    background: #6c757d !important;
+    color: #fff !important;
+}
+
+.table.table-hover{
+    cursor: pointer;
+}
+
+
+/*Animaciones*/
+
+.slide-in-right-left-animation {
+    animation: animation-in-right-left .5s normal;
+}
+
+.slide-in-left-right-animation {
+    animation: animation-in-left-right .5s normal;
+}
+
+
+@keyframes animation-in-right-left {
+    0% {
+        opacity: 0;
+        transform: translateX(+100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes animation-in-left-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

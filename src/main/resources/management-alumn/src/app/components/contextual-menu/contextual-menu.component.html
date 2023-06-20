@@ -1,0 +1,9 @@
+<div>
+    <a class="menu-contextual" (click)="clickToShow()">
+        <img src="assets/img/opcion.png" width="20" />
+    </a>
+    <ul class="list-group dropdown-kt slide-in-left-right-animation" *ngIf="isvisible">
+        <a class="list-group-item list-group-item-action">Modificar</a>
+        <a class="list-group-item list-group-item-action">Eliminar</a>
+    </ul>
+</div>
